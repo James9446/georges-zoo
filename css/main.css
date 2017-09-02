@@ -1,0 +1,12 @@
+* {
+	font-family: 'Luckiest Guy', cursive;
+	letter-spacing: 0.05em;
+}
+
+.navbar-brand {
+	font-size: 3em !important;
+}
+
+.navbar {
+	height: 8em;
+}
