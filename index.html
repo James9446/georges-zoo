@@ -17,7 +17,8 @@
 
 	<body>
 		<section>
-			<div class="container">
+			<!-- BEGIN NAVIGATION SECTION -->
+			<div class="container-fluid">
 				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				  <a class="navbar-brand" href="#">GEORGE'S ZOO</a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,9 +36,25 @@
 				        <a class="nav-link" href="#">BREAKFAST</a>
 				      </li>
 				    </ul>
-				  </div> <!-- </div class="collapse ...> -->
+					</div> <!-- </div class="collapse ...> -->
+					<h3 class="col-3">(415)-664-3215</h3>
 				</nav>
+			</div>
+			<!-- END NAVIGATION SECTION -->
 
+
+
+
+			<!-- BEGIN COFFEE MENU SECTION -->
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="margin-top col-6">
+						<h2>Proudly serving 100% organic &amp; fairtrade certified coffees</h2>
+					</div>
+					<div class="col-4 fair-trade">
+						<img src="img/fair-trade-coffee.jpeg" alt="Fair trade coffee logo with coffee bean background">
+					</div>
+				</div>
 				<div id="accordion" role="tablist">
 				  <div class="card">
 				    <div class="card-header" role="tab" id="headingOne">
@@ -48,53 +65,57 @@
 				      </h5>
 				    </div> <!-- </div class="card-header" ...> -->
 
-				    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+				    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
 				      <div class="card-body">
-				      	<table style="width:50%">
+				      	<table class="table table-striped">
+							<thead class="thead-inverse">
+								<tr>
+									<th></th>
+									<th>Small</th>
+									<th>Medium</th> 
+									<th>Large</th>
+								</tr>
+							</thead>
+							<tbody>
+								<th scope="row">COFFEE</th>
+								<td>$1.25</td>
+								<td>$1.50</td>
+								<td>$1.75</td>
+							</tbody>
+				     <!--  	</table>
+						<hr>
+				      	<table class="table table-striped"> -->
+				      		<thead class="thead-inverse">
+					      	  <tr>
+					      	  	<th></th>
+					      	    <th>Single</th> 
+					      	    <th>Double</th>
+					      	  </tr>
+					      	 </thead>
 				      	  <tr>
-				      	  	<th></th>
-				      	    <th>Small</th>
-				      	    <th>Medium</th> 
-				      	    <th>Large</th>
-				      	  </tr>
-				      	  <tr>
-				      	    <td>COFFEE</td>
-				      	    <td>$1.25</td>
-				      	    <td>$1.50</td>
-				      	    <td>$1.75</td>
-				      	  </tr>
-				      	</table>
-				      	<hr>
-				      	<table style="width: 75%">
-				      	  <tr>
-				      	  	<th></th>
-				      	    <th>Single</th> 
-				      	    <th>Double</th>
-				      	  </tr>
-				      	  <tr>
-				      	    <td>CAPPUCINO</td>
+				      	    <th scope="row">CAPPUCINO</th>
 				      	    <td>$2.00</td>
 				      	    <td>$2.25</td>
 				      	  </tr>
 				      	  <tr>
-				      	    <td>LATT&#201;</td>
+				      	    <th scope="row">LATT&#201;</th>
 				      	    <td>$2.50</td>
 				      	    <td>$2.75</td>
 				      	  </tr>
 				      	  <tr>
-				      	    <td>AMERICANO</td>
+				      	    <th scope="row">AMERICANO</th>
 				      	    <td>$1.95</td>
 				      	    <td>$2.25</td>
 				      	  </tr>
 				      	  <tr>
-				      	    <td>ESPRESSO</td>
+				      	    <th scope="row">ESPRESSO</th>
 				      	    <td>$1.50</td>
 				      	    <td>$1.75</td>
 				      	  </tr>
 				      	  <tr>
-				      	    <td>ADD A FLAVOR</td>
+				      	    <th scope="row">ADD A FLAVOR</th>
 				      	    <td>50¢</td>
-				      	    <td></td>
+				      	    
 				      	    <td>RASPBERRY</td>
 				      	    <td>VANILLA</td>
 				      	    <td>HAZELNUT</td>
@@ -114,33 +135,41 @@
 				    </div>
 				    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
 				      <div class="card-body">
-				      	<table style="width: 75%">
+				      	<table style="width: 100%">
 				      	  <tr>
 				      	  	<th></th>
 				      	    <th>Single</th> 
 				      	    <th>Double</th>
 				      	  </tr>
-				      	  <tr>
+				      	  <tr class="grey">
 				      	    <td>MOCHA</td>
 				      	    <td>$2.00</td>
 				      	    <td>$2.25</td>
+				      	    <td></td>
+				      	    <td></td>
+				      	    <td></td>
+				      	    <td></td>
 				      	  </tr>
 				      	  <tr>
 				      	    <td>VANILLA LATT&#201;</td>
 				      	    <td>$2.50</td>
 				      	    <td>$2.75</td>
 				      	  </tr>
-				      	  <tr>
+				      	  <tr class="grey">
 				      	    <td>SNICKERDOODLE</td>
 				      	    <td>$1.95</td>
 				      	    <td>$2.25</td>
+				      	    <td></td>
+				      	    <td></td>
+				      	    <td></td>
+				      	    <td></td>
 				      	  </tr>
 				      	  <tr>
 				      	    <td>WHITE MOCHA</td>
 				      	    <td>$1.50</td>
 				      	    <td>$1.75</td>
 				      	  </tr>
-				      	  <tr>
+				      	  <tr class="grey">
 				      	    <td>ADD A FLAVOR</td>
 				      	    <td>¢50</td>
 				      	    <td></td>
@@ -163,14 +192,17 @@
 				    </div> 
 				    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
 				      <div class="card-body">
-				      	<table style="width:50%">
+				      	<table style="width:75%">
 				      	  <tr>
 				      	  	<th></th>
 				      	    <th>Small</th>
 				      	    <th>Medium</th> 
 				      	    <th>Large</th>
+				      	    <td></td>
+				      	    <td></td>
+				      	    <td></td>
 				      	  </tr>
-				      	  <tr>
+				      	  <tr class="grey">
 				      	    <td>HOT CHOCOLATE</td>
 				      	    <td>$1.50</td>
 				      	    <td>$1.75</td>
@@ -188,6 +220,7 @@
 				  </div> <!-- </div class="card"> -->
 				</div> <!-- </div id="accordion" role="tablist"> -->
 			</div> <!-- </div class="container"> -->
+			<!-- END COFFEE MENU SECTION -->
 		</section>
 
 		

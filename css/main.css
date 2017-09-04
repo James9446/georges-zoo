@@ -6,10 +6,10 @@
 html {
 	margin: 0;
 }
-section {
+/*section {
 	background-color: #31B96E;
 	padding-bottom: 30%;
-}
+}*/
 
 .navbar-brand {
 	font-size: 3em !important;
@@ -19,10 +19,13 @@ section {
 	height: 8em;
 }
 
-.margin-top {
-	margin-top: 1em;
+h3.col-3 {
+	color: #FFF;
 }
 
+.margin-top {
+	margin-top: 5em;
+}
 
 #accordion .card {
 	/*background-color: #A4E666;*/
@@ -30,4 +33,37 @@ section {
 
 #accordion .card .card-header h5 a {
 	color: #616536;
+}
+
+#accordion .card .card-body .grey {
+	background-color: #EAF3F3;
+}
+.coffee-intro {
+	margin-top: 3em;
+}
+.fair-trade img {
+	border: 2px solid #000;
+	border-radius: 3em;
+	margin: 1em;
+}
+
+table tbody {
+	width: 100%;
+}
+
+.bread figure img {
+	/*border: 2px solid #000;*/
+	border-radius: 3em;
+	margin: 1em;
+	/*overflow: hidden;*/
+	/*margin: 8px;*/
+}
+
+.bread figcaption {
+	color: #616536;
+	text-align: center;
+	/*margin-top: -3em;*/
+	/*padding: 5px;
+	height: 40px;
+	margin-top: -5px;*/
 }
