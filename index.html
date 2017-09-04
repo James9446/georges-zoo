@@ -18,7 +18,7 @@
 	<body>
 		<section>
 			<div class="container">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				  <a class="navbar-brand" href="#">GEORGE'S ZOO</a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
@@ -29,14 +29,15 @@
 				        <a class="nav-link" href="#">GOURMET COFFEE <span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">SANDWICHES</a>
+				        <a class="nav-link" href="sandwiches.html">SANDWICHES</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="#">BREAKFAST</a>
 				      </li>
 				    </ul>
-				  </div>
+				  </div> <!-- </div class="collapse ...> -->
 				</nav>
+
 				<div id="accordion" role="tablist">
 				  <div class="card">
 				    <div class="card-header" role="tab" id="headingOne">
@@ -45,20 +46,64 @@
 				          REGULAR COFFEES
 				        </a>
 				      </h5>
-				    </div>
+				    </div> <!-- </div class="card-header" ...> -->
 
 				    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
 				      <div class="card-body">
-				        <ul>
-				        	<li>COFFEE</li>
-				        	<li>CAPPUCINO</li>
-				        	<li>LATTE</li>
-				        	<li>AMERICANO</li>
-				        	<li>ESPRESSO</li>
-				        </ul>
-				      </div>
-				    </div>
-				  </div>
+				      	<table style="width:50%">
+				      	  <tr>
+				      	  	<th></th>
+				      	    <th>Small</th>
+				      	    <th>Medium</th> 
+				      	    <th>Large</th>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>COFFEE</td>
+				      	    <td>$1.25</td>
+				      	    <td>$1.50</td>
+				      	    <td>$1.75</td>
+				      	  </tr>
+				      	</table>
+				      	<hr>
+				      	<table style="width: 75%">
+				      	  <tr>
+				      	  	<th></th>
+				      	    <th>Single</th> 
+				      	    <th>Double</th>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>CAPPUCINO</td>
+				      	    <td>$2.00</td>
+				      	    <td>$2.25</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>LATT&#201;</td>
+				      	    <td>$2.50</td>
+				      	    <td>$2.75</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>AMERICANO</td>
+				      	    <td>$1.95</td>
+				      	    <td>$2.25</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>ESPRESSO</td>
+				      	    <td>$1.50</td>
+				      	    <td>$1.75</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>ADD A FLAVOR</td>
+				      	    <td>50¢</td>
+				      	    <td></td>
+				      	    <td>RASPBERRY</td>
+				      	    <td>VANILLA</td>
+				      	    <td>HAZELNUT</td>
+				      	    <td>CARAMEL</td>
+				      	  </tr>
+				      	</table>
+				      </div> <!-- <div class="card-body"> -->
+				    </div> <!-- <div id="collapseOne" ... > -->
+				  </div> <!-- </div class="card"> -->
 				  <div class="card">
 				    <div class="card-header" role="tab" id="headingTwo">
 				      <h5 class="mb-0">
@@ -69,16 +114,45 @@
 				    </div>
 				    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
 				      <div class="card-body">
-				        <ul>
-				        	<li>MOCHA</li>
-				        	<li>VANILLA LATE</li>
-				        	<li>SNICKERDOODLE</li>
-				        	<li>WHITE MOCHA</li>
-				        </ul>
-				        <h3>Add a flavor</h3>
-				      </div>
-				    </div>
-				  </div>
+				      	<table style="width: 75%">
+				      	  <tr>
+				      	  	<th></th>
+				      	    <th>Single</th> 
+				      	    <th>Double</th>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>MOCHA</td>
+				      	    <td>$2.00</td>
+				      	    <td>$2.25</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>VANILLA LATT&#201;</td>
+				      	    <td>$2.50</td>
+				      	    <td>$2.75</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>SNICKERDOODLE</td>
+				      	    <td>$1.95</td>
+				      	    <td>$2.25</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>WHITE MOCHA</td>
+				      	    <td>$1.50</td>
+				      	    <td>$1.75</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>ADD A FLAVOR</td>
+				      	    <td>¢50</td>
+				      	    <td></td>
+				      	    <td>RASPBERRY</td>
+				      	    <td>VANILLA</td>
+				      	    <td>HAZELNUT</td>
+				      	    <td>CARAMEL</td>
+				      	  </tr>
+				      	</table>
+				      </div> <!-- </div class="card-body"> -->
+				    </div> <!-- </div id="collapseTwo" class... > -->
+				  </div> <!-- </div class="card"> -->
 				  <div class="card">
 				    <div class="card-header" role="tab" id="headingThree">
 				      <h5 class="mb-0">
@@ -86,18 +160,34 @@
 				          OTHER HOT DRINKS
 				        </a>
 				      </h5>
-				    </div>
+				    </div> 
 				    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
 				      <div class="card-body">
-				        <ul>
-				        	<li>HOT CHOCOLATE</li>
-				        	<li>TEA</li>
-				        </ul>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-			</div>
+				      	<table style="width:50%">
+				      	  <tr>
+				      	  	<th></th>
+				      	    <th>Small</th>
+				      	    <th>Medium</th> 
+				      	    <th>Large</th>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>HOT CHOCOLATE</td>
+				      	    <td>$1.50</td>
+				      	    <td>$1.75</td>
+				      	    <td>$1.95</td>
+				      	  </tr>
+				      	  <tr>
+				      	    <td>TEA</td>
+				      	    <td>$1.25</td>
+				      	    <td>$1.50</td>
+				      	    <td>$1.75</td>
+				      	  </tr>
+				      	</table>
+				      </div> <!-- </div class="card-body"> -->
+				    </div> <!-- </div id="collapseThree" class... > -->
+				  </div> <!-- </div class="card"> -->
+				</div> <!-- </div id="accordion" role="tablist"> -->
+			</div> <!-- </div class="container"> -->
 		</section>
 
 		
