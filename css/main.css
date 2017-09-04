@@ -3,10 +3,31 @@
 	letter-spacing: 0.05em;
 }
 
+html {
+	margin: 0;
+}
+section {
+	background-color: #31B96E;
+	padding-bottom: 30%;
+}
+
 .navbar-brand {
 	font-size: 3em !important;
 }
 
 .navbar {
 	height: 8em;
+}
+
+.margin-top {
+	margin-top: 1em;
+}
+
+
+#accordion .card {
+	/*background-color: #A4E666;*/
+}
+
+#accordion .card .card-header h5 a {
+	color: #616536;
 }
