@@ -1,9 +1,16 @@
 
 TITLE: 
-Foodee - One Page Responsive Free HTML5 template
+George’s Zoo - One Page Responsive Website made with Free HTML5 template
 
 AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
+CUSTOMIZED by James Reynolds - JamesHenryReynolds.com
+
+Website: http://www.jameshenryreynolds.com
+GitHub: https://github.com/James9446/georges-zoo
+LinkedIn: https://www.linkedin.com/in/james9446/
+
+
+TEMPLATE DESIGNED & DEVELOPED by FREEHTML5.co
 
 Website: http://freehtml5.co/
 Twitter: http://twitter.com/fh5co
