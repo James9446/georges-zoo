@@ -3,7 +3,7 @@ TITLE:
 George’s Zoo - One Page Responsive Website made with Free HTML5 template
 
 AUTHOR:
-CUSTOMIZED by James Reynolds - JamesHenryReynolds.com
+CUSTOMIZED by James Reynolds
 
 Website: http://www.jameshenryreynolds.com
 GitHub: https://github.com/James9446/georges-zoo
