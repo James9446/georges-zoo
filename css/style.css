@@ -1355,8 +1355,8 @@ p {
   padding-bottom: 40px;
 }
 
-.surfer {
-  color: orange;
-}
+.fh5co-text p a {
+  text-decoration: none;
+} 
 
 /*# sourceMappingURL=style.css.map */
