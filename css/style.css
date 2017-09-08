@@ -349,6 +349,117 @@ p {
   width: 39.83%;
 }
 
+@media(max-width: 1035px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 21.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 39.33%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 39.33%;
+}
+}
+
+@media(max-width: 988px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 22.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 38.83%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 38.83%;
+}
+}
+
+@media(max-width: 946px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 23.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 38.33%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 38.33%;
+}
+}
+
+@media(max-width: 906px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 24.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 37.83%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 37.83%;
+}
+}
+
+@media(max-width: 906px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 25.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 37.33%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 37.33%;
+}
+}
+
+@media(max-width: 836px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 26.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 36.83%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 36.83%;
+}
+}
+
+@media(max-width: 806px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 27.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 36.33%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 36.33%;
+}
+}
+
+@media(max-width: 777px) {
+  .fh5co-main-nav .fh5co-logo {
+    width: 28.33%;
+  }
+  .fh5co-main-nav .fh5co-menu-1 {
+  text-align: right;
+  width: 35.33%;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 35.33%;
+}
+}
 .fh5co-heading .heading {
   font-size: 50px;
   font-style: italic;
