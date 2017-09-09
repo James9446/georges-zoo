@@ -997,6 +997,12 @@ p {
   color: #fb6e14;
 }
 
+/* Added Rule to fit Coffee - Tea & Hot Chocolate Prices */
+#fh5co-menus .fh5co-food-menu ul li .wide-price {
+  width: 175px;
+  margin-top: -18%;
+}
+
 #fh5co-events {
   padding: 7em 0;
   background-color: transparent;
