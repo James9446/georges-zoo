@@ -507,7 +507,9 @@ p {
 }
 #fh5co-about .fh5co-2col {
   width: 50%;
+  /*padding: 10%;*/
 }
+
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-2col {
     width: 100%;
@@ -566,6 +568,7 @@ p {
 #fh5co-about .fh5co-bg {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-bg {
