@@ -268,6 +268,11 @@ p {
   display: none;
 }
 
+/* Logo background image rule */
+.logo-slide {
+  background-position: 50% 50%;
+}
+
 .fh5co-main-nav {
   position: relative;
   background: #fff;
@@ -874,6 +879,11 @@ p {
   }
 }
 
+/* Add rule for logo image */
+#fh5co-menus .fh5co-heading img {
+  border: 6px solid #000;
+}
+
 #fh5co-menus {
   padding: 4em 0;
 }
@@ -891,7 +901,7 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0401-vegan.png) no-repeat;
+  /*background: url(../images/0401-vegan.png) no-repeat;*/
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1101,6 +1111,11 @@ p {
   margin-bottom: 0;
 }
 
+/* Added rule for logo image */
+#fh5co-contact .fh5co-heading img {
+  border: 6px solid #000;
+}
+
 #fh5co-contact {
   padding: 7em 0;
 }
@@ -1127,7 +1142,7 @@ p {
   width: 61px;
   position: absolute;
   content: "";
-  background: url(../images/0203-coffee-love.png) no-repeat;
+  /*background: url(../images/0203-coffee-love.png) no-repeat;*/
   top: 0;
   left: 50%;
   margin-top: -50px;
