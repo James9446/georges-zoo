@@ -1114,6 +1114,7 @@ p {
 /* Added rule for logo image */
 #fh5co-contact .fh5co-heading img {
   border: 6px solid #000;
+  margin-top: -200px;
 }
 
 #fh5co-contact {
